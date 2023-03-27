@@ -15,6 +15,7 @@ namespace FerrJ_InfoTest
         public Form1()
         {
             InitializeComponent();
+
         }
     }
 }

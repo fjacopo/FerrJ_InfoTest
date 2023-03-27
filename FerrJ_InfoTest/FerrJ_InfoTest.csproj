@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FerrJ_Candidato.cs" />
+    <Compile Include="FerrJ_Disoccupato.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

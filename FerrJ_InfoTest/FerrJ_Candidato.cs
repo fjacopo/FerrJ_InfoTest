@@ -38,9 +38,9 @@ namespace FerrJ_InfoTest
             FerrJ_Matricola = 0;
             FerrJ_Nome = matricola;
         }
-        public FerrJ_Candidato(int matrcicola, string nome)
+        public FerrJ_Candidato(int matricola, string nome)
         {
-            FerrJ_Matricola = matrcicola;
+            FerrJ_Matricola = matricola;
             FerrJ_Nome = nome;
         }
 

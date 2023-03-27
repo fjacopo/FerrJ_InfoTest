@@ -8,7 +8,7 @@ namespace FerrJ_InfoTest
 {
     public abstract class FerrJ_Candidato
     {
-        private int FerrJ_Matricola;
+        private  int FerrJ_Matricola;
         private string FerrJ_Nome;
 
 
@@ -48,7 +48,37 @@ namespace FerrJ_InfoTest
         public abstract bool isIdoneo();
 
         public abstract int punteggio();
+
+        public override string ToString()
+        {
+            string s = FerrJ_Matricola + ", " + FerrJ_Nome + ", ";
+            return s;
+        }
+        public bool Equals(FerrJ_Candidato k)
+        {
+            if (k == null)
+            {
+                return false;
+            }
+            
+            if (this == k) { 
+                    return true;
+            }
+
+            if (this.FerrJ_Matricola == k.FerrJ_Matricola || this.FerrJ_Nome == k.FerrJ_Nome)
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
+        }
+        public abstract bool CompareTo(FerrJ_Candidato k);
         
+
+
     }
 }
 

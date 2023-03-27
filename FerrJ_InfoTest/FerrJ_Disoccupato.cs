@@ -77,5 +77,32 @@ namespace FerrJ_InfoTest
                 return false;
             }
         }
+        public override string ToString()
+        {
+            string s = Matricola + ", " + Nome + ", " + FerrJ_voto + ", " + FerrJ_lode;
+            return s;
+        }
+        public bool Equals(FerrJ_Disoccupato k)
+        {
+            if (k == null)
+                return false;
+
+            if (this == k)
+                return true;
+
+            if (this.Matricola == k.Matricola || this.Nome == k.Nome || this.FerrJ_voto == k.FerrJ_voto || this.FerrJ_lode == k.FerrJ_lode)
+                return true;
+
+            else
+                return false;
+        }
+        public override bool CompareTo(FerrJ_Candidato k)
+        {
+            if (this.punteggio() == k.punteggio())
+                return true;
+            else
+                return false;
+        }
+
     }
 }

@@ -94,13 +94,11 @@ namespace FerrJ_InfoTest
             else
                 return 1;
         }
-        public override int GetHashCode()
-        {
-            return (Matricola, Nome).GetHashCode();
-        }
-
-
+        public override int GetHashCode() => (this.FerrJ_Matricola, this.FerrJ_Nome).GetHashCode();
     }
+
+
 }
+
 
 

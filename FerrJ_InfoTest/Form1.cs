@@ -15,7 +15,8 @@ namespace FerrJ_InfoTest
         public Form1()
         {
             InitializeComponent();
-            
+            List<FerrJ_Candidato> Candidati = new List<FerrJ_Candidato>();
         }
+        
     }
 }

@@ -76,7 +76,10 @@ namespace FerrJ_InfoTest
             }
         }
         public abstract bool CompareTo(FerrJ_Candidato k);
-        
+        public override int GetHashCode()
+        {
+            return (Matricola, Nome).GetHashCode();
+        }
 
 
     }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerrJ_InfoTest", "FerrJ_InfoTest\FerrJ_InfoTest.csproj", "{7CB1101E-3120-44BD-A6CE-83FCD6366A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CB1101E-3120-44BD-A6CE-83FCD6366A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB1101E-3120-44BD-A6CE-83FCD6366A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB1101E-3120-44BD-A6CE-83FCD6366A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB1101E-3120-44BD-A6CE-83FCD6366A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E04442-169E-425A-82B4-7ED51A562CAF}
+	EndGlobalSection
+EndGlobal

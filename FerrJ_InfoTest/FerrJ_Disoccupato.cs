@@ -41,11 +41,11 @@ namespace FerrJ_InfoTest
                     }
                     catch
                     {
-                        throw new Exception("Lode non valida");
+                        throw new Exception("non valida");
                     }
                 }
                 else
-                    throw new Exception("Lode non disponibile");
+                    throw new Exception("non disponibile");
             }
         }
         public FerrJ_Disoccupato()

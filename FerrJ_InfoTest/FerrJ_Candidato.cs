@@ -28,20 +28,20 @@ namespace FerrJ_InfoTest
             FerrJ_Matricola = 0;
             FerrJ_Nome = null;
         }
-        public FerrJ_Candidato(int n)
+        public FerrJ_Candidato(int matricola)
         {
-            FerrJ_Matricola = n;
+            FerrJ_Matricola = matricola;
             FerrJ_Nome = null;
         }
-        public FerrJ_Candidato(string s)
+        public FerrJ_Candidato(string matricola)
         {
             FerrJ_Matricola = 0;
-            FerrJ_Nome = s;
+            FerrJ_Nome = matricola;
         }
-        public FerrJ_Candidato(int n, string s)
+        public FerrJ_Candidato(int matrcicola, string nome)
         {
-            FerrJ_Matricola = n;
-            FerrJ_Nome = s;
+            FerrJ_Matricola = matrcicola;
+            FerrJ_Nome = nome;
         }
 
 

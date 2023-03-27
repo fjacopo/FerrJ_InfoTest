@@ -75,7 +75,25 @@ namespace FerrJ_InfoTest
                 return false;
             }
         }
-        public abstract bool CompareTo(FerrJ_Candidato k);
+        public int CompareTo(FerrJ_Candidato k)
+        {
+            if (k == null)
+            {
+                return 1;
+            }
+
+            if (this.punteggio() == k.punteggio())
+            {
+                return 0;
+            }
+            else if (this.punteggio() < k.punteggio())
+            {
+                return -1;
+            }
+
+            else
+                return 1;
+        }
         public override int GetHashCode()
         {
             return (Matricola, Nome).GetHashCode();

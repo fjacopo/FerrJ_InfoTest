@@ -77,12 +77,24 @@ namespace FerrJ_InfoTest
                     return false;
             }
         }
-        public override bool CompareTo(FerrJ_Candidato k)
+        public int CompareTo(FerrJ_Lavoratore k)
         {
+            if (k == null)
+            {
+                return 1;
+            }
+
             if (this.punteggio() == k.punteggio())
-                return true;
+            {
+                return 0;
+            }
+            else if (this.punteggio() < k.punteggio())
+            {
+                return -1;
+            }
+
             else
-                return false;
+                return 1;
         }
     }
 }
